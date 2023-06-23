@@ -1,0 +1,166 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  .main {
+    padding-top: 104.34px;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  h2 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  @include hero-xlg-xxlg;
+  @include header-xlg-xxlg;
+  @include join-xlg-xxlg;
+  @include partner-xlg-xxlg;
+  @include events-xlg-xxlg;
+  @include request-xlg-xxlg;
+
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 26px;
+    &.big {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  @include hero-lg-xlg;
+  @include partner-lg-xlg;
+  @include nav-lg-xlg;
+  @include footer-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+  @include hero-md-lg;
+  @include join-md-lg;
+  @include events-md-lg;
+  @include request-md-lg;
+
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  @include nav-sm-md;
+  @include hero-sm-md;
+  @include join-sm-md;
+  @include request-sm-md;
+  @include footer-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+  @include footer-sm-md-extra;
+
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  p {
+    &.big {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .main {
+    padding-top: 74.49px;
+  }
+  .check {
+    font-size: 16px;
+    line-height: 100%;
+    &__box {
+      width: 18px;
+      height: 18px;
+      margin: 0 10px 6px 0;
+    }
+    b {
+      width: calc(100% - 28px);
+    }
+  }
+  .button {
+    padding: 10px 22px 4px;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include join-xsm-sm;
+  @include company-xsm-sm;
+  @include events-xsm-sm;
+  @include partner-xsm-sm;
+  @include request-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm {
+  @include hero-xxsm-xsm;
+  @include request-xxsm-xsm;
+
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}

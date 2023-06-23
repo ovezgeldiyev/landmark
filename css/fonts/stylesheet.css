@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('FoundersGrotesk-Light.otf') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('FoundersGrotesk-Regular.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('FoundersGrotesk-Medium.otf') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('FoundersGrotesk-Semibold.otf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('FoundersGrotesk-Bold.otf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
